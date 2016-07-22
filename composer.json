@@ -1,0 +1,26 @@
+{
+    "name": "pavelm/nette-slack-extension",
+    "require": {
+        "nette/application": "~2.3",
+        "nette/di": "~2.3",
+        "nette/bootstrap": "~2.3",
+        "nette/robot-loader": "~2.3",
+        "nette/forms": "~2.3",
+        "guzzlehttp/guzzle": "~6.0"
+    },
+    "require-dev": {
+        "nette/tester": "^1.7",
+        "mockery/mockery": "^0.9.5"
+    },
+    "authors": [
+        {
+            "name": "Pavel Mlejnek",
+            "email": "pavel.mlejnek@hotmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Slack\\": "src/"
+        }
+    }
+}
